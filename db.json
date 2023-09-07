@@ -1,0 +1,137 @@
+{
+  "benchmarking_sources_config": [
+    {
+      "id": "CARTA",
+      "title": "Carta",
+      "caption": "View Carta's market compensation database",
+      "logoUrl": "",
+      "imgUrl": ""
+    },
+    {
+      "id": "RADFORD",
+      "title": "Radford",
+      "caption": "View Radford's market compensation database",
+      "logoUrl": "",
+      "imgUrl": ""
+    }
+  ],
+  "mapping_rules": [
+    {
+      "source": "carta",
+      "level_mapping": {},
+      "job_family_mapping": {}
+    }
+  ],
+  "third_party_levels": [
+    {
+      "id": 1,
+      "name": "IC 1",
+      "source": "carta",
+      "track_name": "Individual contributor"
+    },
+    {
+      "id": 2,
+      "name": "IC 2",
+      "source": "carta",
+      "track_name": "Individual contributor"
+    },
+    {
+      "id": 3,
+      "name": "IC 3",
+      "source": "carta",
+      "track_name": "Individual contributor"
+    },
+    {
+      "id": 4,
+      "name": "M-1",
+      "source": "carta",
+      "track_name": "Management"
+    },
+    {
+      "id": 5,
+      "name": "M-2",
+      "source": "carta",
+      "track_name": "Management"
+    },
+    {
+      "id": 6,
+      "name": "M-3",
+      "source": "carta",
+      "track_name": "Management"
+    }
+  ],
+  "third_party_job_families": [
+    {
+      "id": 1,
+      "name": "Backend",
+      "source": "carta"
+    },
+    {
+      "id": 2,
+      "name": "Frontend",
+      "source": "carta"
+    },
+    {
+      "id": 3,
+      "name": "Accounting",
+      "source": "carta"
+    },
+    {
+      "id": 4,
+      "name": "Finance",
+      "source": "carta"
+    },
+    {
+      "id": 5,
+      "name": "Sales",
+      "source": "carta"
+    },
+    {
+      "id": 6,
+      "name": "Support",
+      "source": "carta"
+    }
+  ],
+  "third_party_industries": [
+    {
+      "id": "1",
+      "name": "IT Services"
+    },
+    {
+      "id": "2",
+      "name": "Mining"
+    },
+    {
+      "id": "3",
+      "name": "Oil & Gas"
+    },
+    {
+      "id": "4",
+      "name": "Pharmaceuticals"
+    },
+    {
+      "id": "5",
+      "name": "Real Estate"
+    }
+  ],
+  "company_money_groups": [
+    {
+      "id": "1",
+      "name": "Series A",
+      "lower_bound": 100,
+      "upper_bound": 200
+    },
+    {
+      "id": "2",
+      "name": "Series B",
+      "lower_bound": 200,
+      "upper_bound": 300
+    },
+    {
+      "id": "3",
+      "name": "Series C",
+      "lower_bound": 300,
+      "upper_bound": 400
+    }
+  ]
+}
